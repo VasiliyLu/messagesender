@@ -1,12 +1,12 @@
 package smsyeastar_test
 
 import (
+	"messagesender"
+	"messagesender/pkg/testingex"
+	"messagesender/smsyeastar"
 	"os"
 	"strconv"
 	"testing"
-	"tgbotokna/pkg/messagesender"
-	"tgbotokna/pkg/messagesender/smsyeastar"
-	"tgbotokna/pkg/testingex"
 )
 
 var testCases = []string{"Ваш код: 7705", "Добро пожаловать!", "Тестовое сообщение"}

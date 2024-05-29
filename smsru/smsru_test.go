@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"tgbotokna/pkg/messagesender"
-	"tgbotokna/pkg/messagesender/smsru"
-	"tgbotokna/pkg/testingex"
+	"messagesender"
+	"messagesender/smsru"
+	"messagesender/pkg/testingex"
 )
 
 func TestSendSms(t *testing.T) {

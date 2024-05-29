@@ -2,7 +2,7 @@ package fakemail
 
 import (
 	"fmt"
-	"tgbotokna/pkg/messagesender"
+	"messagesender"
 )
 
 type FakeMail struct {

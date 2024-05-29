@@ -1,10 +1,10 @@
 package smtpsender_test
 
 import (
+	"messagesender"
+	"messagesender/pkg/testingex"
+	"messagesender/smtpsender"
 	"testing"
-	"tgbotokna/pkg/messagesender"
-	"tgbotokna/pkg/messagesender/smtpsender"
-	"tgbotokna/pkg/testingex"
 )
 
 func TestSendTLS(t *testing.T) {

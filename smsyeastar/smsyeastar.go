@@ -3,14 +3,13 @@ package smsyeastar
 import (
 	"errors"
 	"fmt"
+	"github.com/nyaruka/phonenumbers"
 	"io"
+	"messagesender"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
-	"tgbotokna/pkg/messagesender"
-
-	"github.com/nyaruka/phonenumbers"
 )
 
 type SmsYeastarConfig struct {

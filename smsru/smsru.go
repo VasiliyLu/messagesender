@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 	"io"
+	"messagesender"
 	"net/http"
 	"net/url"
-	"tgbotokna/pkg/messagesender"
 
 	"github.com/samber/lo"
 	"golang.org/x/exp/maps"

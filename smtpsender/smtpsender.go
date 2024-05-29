@@ -3,9 +3,9 @@ package smtpsender
 import (
 	"bytes"
 	"fmt"
+	"messagesender"
 	"net/smtp"
 	"strings"
-	"tgbotokna/pkg/messagesender"
 )
 
 type SmtpConfig struct {
