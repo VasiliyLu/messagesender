@@ -1,4 +1,4 @@
-module messagesender
+module github.com/VasiliyLu/messagesender
 
 go 1.21.4
 

@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"messagesender"
-	"messagesender/smsru"
-	"messagesender/pkg/testingex"
+	"github.com/VasiliyLu/messagesender"
+	"github.com/VasiliyLu/messagesender/smsru"
+	"github.com/VasiliyLu/messagesender/pkg/testingex"
 )
 
 func TestSendSms(t *testing.T) {

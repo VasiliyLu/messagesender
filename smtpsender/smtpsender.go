@@ -3,7 +3,7 @@ package smtpsender
 import (
 	"bytes"
 	"fmt"
-	"messagesender"
+	"github.com/VasiliyLu/messagesender"
 	"net/smtp"
 	"strings"
 )

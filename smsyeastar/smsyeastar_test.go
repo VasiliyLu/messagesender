@@ -1,9 +1,9 @@
 package smsyeastar_test
 
 import (
-	"messagesender"
-	"messagesender/pkg/testingex"
-	"messagesender/smsyeastar"
+	"github.com/VasiliyLu/messagesender"
+	"github.com/VasiliyLu/messagesender/pkg/testingex"
+	"github.com/VasiliyLu/messagesender/smsyeastar"
 	"os"
 	"strconv"
 	"testing"

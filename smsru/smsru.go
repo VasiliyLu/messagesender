@@ -3,8 +3,8 @@ package smsru
 import (
 	"encoding/json"
 	"errors"
+	"github.com/VasiliyLu/messagesender"
 	"io"
-	"messagesender"
 	"net/http"
 	"net/url"
 

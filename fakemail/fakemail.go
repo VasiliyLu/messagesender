@@ -2,7 +2,7 @@ package fakemail
 
 import (
 	"fmt"
-	"messagesender"
+	"github.com/VasiliyLu/messagesender"
 )
 
 type FakeMail struct {

@@ -1,9 +1,9 @@
 package smtpsender_test
 
 import (
-	"messagesender"
-	"messagesender/pkg/testingex"
-	"messagesender/smtpsender"
+	"github.com/VasiliyLu/messagesender"
+	"github.com/VasiliyLu/messagesender/pkg/testingex"
+	"github.com/VasiliyLu/messagesender/smtpsender"
 	"testing"
 )
 

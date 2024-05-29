@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/nyaruka/phonenumbers"
 	"io"
-	"messagesender"
+	"github.com/VasiliyLu/messagesender"
 	"net/http"
 	"net/url"
 	"strconv"
